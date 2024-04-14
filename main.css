@@ -17,7 +17,9 @@ h2 {
   -webkit-backdrop-filter: blur( 9.5px );
   border-radius: 10px;
   border: 3px ;
-  font-family: "Fira Sans Condensed"
+  font-family: "Fira Sans Condensed";
+ 
+
 }
 .availablility{
   text-align: center;
@@ -26,10 +28,22 @@ h2 {
 }
 .card-text{
   text-align: justify;
-  font-family: jacquard 24;
+  
 }
 .row{
   display: flex;
   flex-wrap: row;
   justify-content: space-evenly;
+ 
+}
+#banana{
+  position: relative;
+}
+#soldOut{
+  position: absolute;
+  left: -75px;
+
+
+
+  
 }
